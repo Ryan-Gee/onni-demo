@@ -10,38 +10,56 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Project Dashboard</title>
   </head>
-  <body class="mb-5 mt-5">
 
+    <body class="mb-5 mt-5">
+    <!-- Top of page nave -->
     <nav class="navbar navbar-expand-lg navbar-light nav-main">
+        <!-- Branding (logo) -->
         <a class="navbar-brand" href="#">
             <img src="wordmark.svg" alt="logo" height="50"/>
         </a>
+        <!-- Hamburger menu button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="https://image.flaticon.com/icons/svg/2089/2089792.svg" alt="hamburger" height="20"/>
+            <img src="https://image.flaticon.com/icons/svg/2089/2089792.svg" alt="hamburger" height="20"/>
         </button>
+        <!-- Collapsible nav -->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">All projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
                 </li>
             </ul>
         </div>  
     </nav>
+
+    <!-- Nav anchored to the bottom of the page -->
     <nav>
         <div class="sub-nav">
             <ul class="nav nav-bottom nav-pills nav-fill">
+                <!-- Projects page -->
                 <li class="nav-item">
-                    <a class="nav-link active p-3" href="#">
+                    <a class="nav-link active p-2" href="#">
                         <img src="icons/project.svg" alt="project" height="30"/>
                     </a>
                 </li>
+                <!-- New project page -->
                 <li class="nav-item">
-                    <a class="nav-link p-3" href="#">
+                    <a class="nav-link p-2" href="#">
                         <img src="icons/plus.svg" alt="new" height="30"/>
                     </a>
                 </li>
+                <!-- User profile page -->
                 <li class="nav-item">
-                    <a class="nav-link p-3" href="#">
+                    <a class="nav-link p-2" href="#">
                         <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="profile" height="30" />
                     </a>
                 </li>
@@ -49,10 +67,13 @@
         </div>
     </nav>
 
+<!-- Main site content -->
 <div class="container">
+    <!-- Header at the top of the page -->
     <div class="jumbotron">
         <h1>Everything. By Everyone.</h1>
         <h3>All your projects, in one place.</h3>
+        <!-- Search bar -->
         <div class="input-group mt-4">
             <input type="text" class="form-control" placeholder="Search..." value="greenhouse">
             <div class="input-group-append">
@@ -60,17 +81,23 @@
                     <img src="icons/search.svg" alt="search" />
                 </button>
             </div>
-          </div>
+        </div>
     </div>
+    <!-- All project listings -->
     <div class="projects">
         <div class="card mb-4">
+            <!-- Thumbnail at the top of the card -->
             <div class="project-thumbnail">
                 <img class="img-fluid" src="https://www.rimolgreenhouses.com/sites/default/files/greenhouses/galleries/Center2P30.jpg" alt=""/>
             </div>
+            <!-- Project title -->
             <h2 class="card-header">Passive Greenhouse</h5>
             <div class="card-body">
+                <!-- User attribution -->
                 <h5 class="card-title">By Nicole W.</h5>
+                <!-- Description -->
                 <p class="card-text">Lorem ipsum dolor sit amet, consectiteur adispiscing elit, sed diam.</p>
+                <!-- Category icons -->
                 <div class="btn-group category-group" role="group">
                     <button class="icon icon-category">
                         <img src="icons/leaf.svg" alt="environmental" />
@@ -79,6 +106,7 @@
                         <img src="icons/user.svg" alt="social" />
                     </button>
                 </div>
+                <!-- Views and likes icons (used button group as default styling is close) -->
                 <div class="btn-group stats-group" role="group">
                     <button class="stat">
                         <img src="icons/eye.svg" alt="views" class="mr-2"/>4390
@@ -91,13 +119,18 @@
         </div>
 
         <div class="card mb-4">
+            <!-- Card thumbnail -->
             <div class="project-thumbnail">
                 <img class="img-fluid" src="https://ceresgs.com/wp-content/uploads/2018/05/12x16-DIY-Exterior.jpg" alt=""/>
             </div>
+            <!-- Project title -->
             <h2 class="card-header">Solar Greenhouse</h5>
             <div class="card-body">
+                <!-- Project creator attribution -->
                 <h5 class="card-title">By Alex Q.</h5>
+                <!-- Project description brief -->
                 <p class="card-text">Lorem ipsum dolor sit amet, consectiteur adispiscing elit, sed diam.</p>
+                <!-- Category icons -->
                 <div class="btn-group category-group" role="group">
                     <button class="icon icon-category">
                         <img src="icons/leaf.svg" alt="environmental" />
@@ -106,6 +139,7 @@
                         <img src="icons/cpu.svg" alt="tech" />
                     </button>
                 </div>
+                <!-- Views and likes icons -->
                 <div class="btn-group stats-group" role="group">
                     <button class="stat">
                         <img src="icons/eye.svg" alt="views" class="mr-2"/>3629
