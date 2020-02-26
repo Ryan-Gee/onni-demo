@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Project Dashboard</title>
   </head>
-  <body>
+  <body class="mb-5 mt-5">
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light nav-main">
         <a class="navbar-brand" href="#">
             <img src="wordmark.svg" alt="logo" height="50"/>
         </a>
@@ -53,25 +53,70 @@
     <div class="jumbotron">
         <h1>Everything. By Everyone.</h1>
         <h3>All your projects, in one place.</h3>
-        <div class="input-group mb-3">
+        <div class="input-group mt-4">
             <input type="text" class="form-control" placeholder="Search..." value="greenhouse">
             <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button"><img src="icons/search.svg" alt="search" /></button>
+                <button class="btn btn-outline-secondary" type="button">
+                    <img src="icons/search.svg" alt="search" />
+                </button>
             </div>
           </div>
     </div>
     <div class="projects">
-        <div class="card">
+        <div class="card mb-4">
+            <div class="project-thumbnail">
+                <img class="img-fluid" src="https://www.rimolgreenhouses.com/sites/default/files/greenhouses/galleries/Center2P30.jpg" alt=""/>
+            </div>
             <h2 class="card-header">Passive Greenhouse</h5>
             <div class="card-body">
                 <h5 class="card-title">By Nicole W.</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectiteur adispiscing elit, sed diam.</p>
-                <div class="btn-group" role="group">
-                    <button type="button" class="btn btn-secondary"></button>
+                <div class="btn-group category-group" role="group">
+                    <button class="icon icon-category">
+                        <img src="icons/leaf.svg" alt="environmental" />
+                    </button>
+                    <button class="icon icon-category">
+                        <img src="icons/user.svg" alt="social" />
+                    </button>
+                </div>
+                <div class="btn-group stats-group" role="group">
+                    <button class="stat">
+                        <img src="icons/eye.svg" alt="views" class="mr-2"/>4390
+                    </button>
+                    <button class="stat">
+                        <img src="icons/heart.svg" alt="likes" class="mr-2"/>210
+                    </button>
                 </div>
             </div>
         </div>
 
+        <div class="card mb-4">
+            <div class="project-thumbnail">
+                <img class="img-fluid" src="https://ceresgs.com/wp-content/uploads/2018/05/12x16-DIY-Exterior.jpg" alt=""/>
+            </div>
+            <h2 class="card-header">Solar Greenhouse</h5>
+            <div class="card-body">
+                <h5 class="card-title">By Alex Q.</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectiteur adispiscing elit, sed diam.</p>
+                <div class="btn-group category-group" role="group">
+                    <button class="icon icon-category">
+                        <img src="icons/leaf.svg" alt="environmental" />
+                    </button>
+                    <button class="icon icon-category">
+                        <img src="icons/cpu.svg" alt="tech" />
+                    </button>
+                </div>
+                <div class="btn-group stats-group" role="group">
+                    <button class="stat">
+                        <img src="icons/eye.svg" alt="views" class="mr-2"/>3629
+                    </button>
+                    <button class="stat">
+                        <img src="icons/heart.svg" alt="likes" class="mr-2"/>152
+                    </button>
+                </div>
+            </div>
+        </div>
+    <!-- End of projects -->
     </div>
 </div>
     
