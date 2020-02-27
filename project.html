@@ -69,27 +69,33 @@
 
 <!-- Main site content -->
 <div class="container">
-    <!-- All project listings -->
+    <!-- Main project listing -->
     <div class="project pt-4">
         <h1 class="project-title">Passive Greenhouse</h1>
         <p class="project-description">Feb 9th, 2020</p>
+        <!-- Bar containing user, comments, likes, etc links, rendered as a large pill-styled bar in the mockup -->
         <div class="action-bar btn-group" role="group">
+            <!-- User link, should take up twice the space of other items in the bar -->
             <button type="button" class="btn" id="action-user">
                 <img class="profile-img" src="https://randomuser.me/api/portraits/women/32.jpg" alt="profile" height="30" />
                 Nicole W.
             </button>
+            <!-- Add link -->
             <button type="button" class="btn" id="action-add">
                 <img src="https://image.flaticon.com/icons/svg/808/808559.svg" alt="add" height="30" />
             </button>
+            <!-- Comments link -->
             <button type="button" class="btn" id="action-comment">
                 <img src="https://image.flaticon.com/icons/svg/1380/1380338.svg" alt="comments" height="30" />
             </button>
+            <!-- Like button -->
             <button type="button" class="btn" id="action-like">
                 <img src="icons/heart.svg" alt="like" height="40"/>
             </button>
         </div>
+        <!-- Main project card -->
         <div class="card">
-            <!-- Project title -->
+            <!-- Header contains categories and views and likes -->
             <div class="card-header">
                 <div class="btn-group category-group" role="group">
                     <button class="icon icon-category">
@@ -109,12 +115,15 @@
                     </button>
                 </div>
             </div>
+            <!-- Body contains the various sectioned content pieces -->
             <div class="card-body">
+                <!-- Background brief section -->
                 <section class="project-background">
                     <h2>Background</h2>
                     <p>Lorem ipsum dolor sit amet consecteteur adispicing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore manga eliquam verad dolupat. Ut wisi enim ad minim veniam, quis nostrad excim tatius a corpus suscipit laboris minoris.</p>
                     <p>Auctor augue mauris augue neque gravida in fermentum. Ornare suspendisse sed nisi lacus sed viverra tellus in. Elit eget gravida cum sociis natoque penatibus et magnis dis. Tellus pellentesque eu tincidunt tortor. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit.</p>
                 </section>
+                <!-- Gallery section (may need additional classes?) -->
                 <section class="project-gallery mt-4">
                     <h2>Gallery</h2>
                     <div class="gallery">
@@ -126,6 +135,7 @@
                         <img class="img-fluid" src="https://gardenmagz.com/wp-content/uploads/2017/09/Greenhouse-Gardening-For-Beginners-Ideas-4.jpg" alt="" />
                     </div>
                 </section>
+                <!-- Downloads section -->
                 <section class="project-downloads mt-4">
                     <h2>Downloads</h2>
                     <div class="file-uploads p-5">
@@ -136,13 +146,18 @@
         </div>
     <!-- End of project -->
     </div>
+    <!-- Comments section -->
     <div class="comments mt-5 pb-3">
+        <!-- Comments title -->
         <h2>project discussion</h2>
+        <!-- Section elements used for comments, similar styling to project sections -->
         <section class="comment mb-5 mt-5">
+            <!-- User name and image -->
             <h4 id="comment-user">
                 <img class="profile-img" src="https://randomuser.me/api/portraits/women/32.jpg" alt="profile" height="30" />
                 Nicole W.
             </h4>
+            <!-- Body of the comment itself -->
             <p class="comment-body m-4">If anyone has feedback, please share!</p>
         </section>
         <section class="comment mb-5 mt-5">
