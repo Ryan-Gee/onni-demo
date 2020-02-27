@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Solar Greenhouse Project</title>
+  </head>
+
+    <body class="mb-5 mt-5">
+    <!-- Top of page nave -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-main">
+        <!-- Branding (logo) -->
+        <a class="navbar-brand" href="#">
+            <img src="wordmark.svg" alt="logo" height="50"/>
+        </a>
+        <!-- Hamburger menu button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="https://image.flaticon.com/icons/svg/2089/2089792.svg" alt="hamburger" height="20"/>
+        </button>
+        <!-- Collapsible nav -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">All projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">New project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>  
+    </nav>
+
+    <!-- Nav anchored to the bottom of the page -->
+    <nav>
+        <div class="sub-nav">
+            <ul class="nav nav-bottom nav-pills nav-fill">
+                <!-- Projects page -->
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="#">
+                        <img src="icons/project.svg" alt="project" height="30"/>
+                    </a>
+                </li>
+                <!-- New project page -->
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="#">
+                        <img src="icons/plus.svg" alt="new" height="30"/>
+                    </a>
+                </li>
+                <!-- User profile page -->
+                <li class="nav-item">
+                    <a class="nav-link p-2" href="#">
+                        <img class="profile-img" src="https://randomuser.me/api/portraits/women/32.jpg" alt="profile" height="30" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Main site content -->
+<div class="container">
+    <!-- All project listings -->
+    <div class="project pt-4">
+        <h1 class="project-title">Passive Greenhouse</h1>
+        <p class="project-description">Feb 9th, 2020</p>
+        <div class="action-bar btn-group" role="group">
+            <button type="button" class="btn" id="action-user">
+                <img class="profile-img" src="https://randomuser.me/api/portraits/women/32.jpg" alt="profile" height="30" />
+                Nicole W.
+            </button>
+            <button type="button" class="btn" id="action-add">
+                <img src="https://image.flaticon.com/icons/svg/808/808559.svg" alt="add" height="30" />
+            </button>
+            <button type="button" class="btn" id="action-comment">
+                <img src="https://image.flaticon.com/icons/svg/1380/1380338.svg" alt="comments" height="30" />
+            </button>
+            <button type="button" class="btn" id="action-like">
+                <img src="icons/heart.svg" alt="like" height="40"/>
+            </button>
+        </div>
+        <div class="card">
+            <!-- Project title -->
+            <div class="card-header">
+                <div class="btn-group category-group" role="group">
+                    <button class="icon icon-category">
+                        <img src="icons/leaf.svg" alt="environmental" />
+                    </button>
+                    <button class="icon icon-category">
+                        <img src="icons/user.svg" alt="social" />
+                    </button>
+                </div>
+                <!-- Views and likes icons (used button group as default styling is close) -->
+                <div class="btn-group stats-group" role="group">
+                    <button class="stat">
+                        <img src="icons/eye.svg" alt="views" class="mr-2"/>4390
+                    </button>
+                    <button class="stat">
+                        <img src="icons/heart.svg" alt="likes" class="mr-2"/>210
+                    </button>
+                </div>
+            </div>
+            <div class="card-body">
+                <section class="project-background">
+                    <h2>Background</h2>
+                    <p>Lorem ipsum dolor sit amet consecteteur adispicing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore manga eliquam verad dolupat. Ut wisi enim ad minim veniam, quis nostrad excim tatius a corpus suscipit laboris minoris.</p>
+                    <p>Auctor augue mauris augue neque gravida in fermentum. Ornare suspendisse sed nisi lacus sed viverra tellus in. Elit eget gravida cum sociis natoque penatibus et magnis dis. Tellus pellentesque eu tincidunt tortor. Vulputate odio ut enim blandit volutpat maecenas volutpat blandit.</p>
+                </section>
+                <section class="project-gallery mt-4">
+                    <h2>Gallery</h2>
+                    <div class="gallery">
+                        <img class="img-fluid" src="https://i.ytimg.com/vi/Tn7EfyRNRyE/maxresdefault.jpg" alt="" />
+                        <img class="img-fluid" src="https://imgs.6sqft.com/wp-content/uploads/2017/11/15113025/Bedford-Green-House-Rendering-of-Rooftop-Greenhouse.jpg" alt="" />
+                        <img class="img-fluid" src="https://cdn.instructables.com/FT9/LXSR/HAQ3DS7T/FT9LXSRHAQ3DS7T.LARGE.jpg" alt=""/>
+                        <img class="img-fluid" src="https://extension.umn.edu/sites/extension.umn.edu/files/styles/crop_3_x_2_collage_image_crop_/public/DSC_0516.JPG?h=6fd521c9&itok=ZsFw8G7o" alt="" />
+                        <img class="img-fluid" src="https://baileylineroad.com/wp-content/uploads/2017/04/hoop_house_opener.jpg" alt="" />
+                        <img class="img-fluid" src="https://gardenmagz.com/wp-content/uploads/2017/09/Greenhouse-Gardening-For-Beginners-Ideas-4.jpg" alt="" />
+                    </div>
+                </section>
+                <section class="project-downloads mt-4">
+                    <h2>Downloads</h2>
+                    <div class="file-uploads p-5">
+                        <img src="https://image.flaticon.com/icons/svg/2089/2089751.svg" alt="download" class="mx-auto d-block" width="40"/>
+                    </div>
+                </section>
+            </div>
+        </div>
+    <!-- End of project -->
+    </div>
+    <div class="comments mt-5 pb-3">
+        <h2>project discussion</h2>
+        <section class="comment mb-5 mt-5">
+            <h4 id="comment-user">
+                <img class="profile-img" src="https://randomuser.me/api/portraits/women/32.jpg" alt="profile" height="30" />
+                Nicole W.
+            </h4>
+            <p class="comment-body m-4">If anyone has feedback, please share!</p>
+        </section>
+        <section class="comment mb-5 mt-5">
+            <h4 id="comment-user">
+                <img class="profile-img" src="https://randomuser.me/api/portraits/men/15.jpg" alt="profile" height="30" />
+                Marco A.
+            </h4>
+            <p class="comment-body m-4">Hey Nicole, could you share where this project is currently used? My town council is interested, but asked for more than one proof of concept before moving ahead with the construction of our own!</p>
+        </section>
+        <section class="comment mb-5 mt-5">
+            <h4 id="comment-user">
+                <img class="profile-img" src="https://randomuser.me/api/portraits/women/71.jpg" alt="profile" height="30" />
+                Zahra R.
+            </h4>
+            <p class="comment-body m-4">Would you be able to share the total cost of the finished project? Looking into proceding with this as a social initiative at my college!</p>
+        </section>
+        <section class="comment mb-5 mt-5">
+            <h4 id="comment-user">
+                <img class="profile-img" src="https://randomuser.me/api/portraits/men/89.jpg" alt="profile" height="30" />
+                Ric H.
+            </h4>
+            <p class="comment-body m-4">Thanks for sharing! Used this as a template for my own, turned out pretty well! You can check it out at my <a href="#">child project</a> page.</p>
+        </section>
+    </div>
+</div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
