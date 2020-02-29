@@ -14,14 +14,16 @@
     margin: 0 auto;
 }
 
-.nav-main .navbar-collapse .nav-item .active {
+.nav-main .navbar-collapse .nav-item a .active {
     background-color: #006837;
     margin: 0 auto;
 }
 
-.nav-main .navbar-collapse .nav-item:hover {
+.nav-main .navbar-collapse .nav-item a:hover {
     background-color: #006837;
-    margin: 0 auto;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 nav .sub-nav {
@@ -58,13 +60,28 @@ nav .sub-nav .nav-item:hover {
     box-shadow: 20px 10px #006837;
 }
 
+.card .project-thumbnail {
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+
 .card .project-thumbnail img {
-    border-radius: 0px 45px 0 0;
+    border-radius: 0 0 0 45px;
+}
+
+.card .card-header, .card .card-body {
+    float: left;
+    width: 70%;
 }
 
 .card button {
     border: none;
     outline:none;
+}
+
+.card .stats-group {
+    float: right;
 }
 
 .card .stat {
@@ -85,6 +102,8 @@ nav .sub-nav .nav-item:hover {
 
 .jumbotron {
     background-color: #1bde3d;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 h1 {
