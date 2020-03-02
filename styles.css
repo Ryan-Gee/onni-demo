@@ -51,22 +51,94 @@ nav .sub-nav .nav-item:hover {
 }
 
 .input-group-append img {
-    color: rgb(255, 255, 255);
+    fill: #fff;
 }
 
 .card {
     border-radius: 0px 50px;
-    border: solid 5px #006837;
+    border: solid 4px #006837;
     box-shadow: 20px 10px #006837;
+    margin: auto;
+}
+
+.mb-4 {
+    width: 700px;
+}
+
+.header {
+    background-color: #1bde3d;
+    margin: auto;
+    padding: 64px 32px 32px 32px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.header h1, .header p {
+    margin-left: 10px;
+}
+
+.project-background {
+    border: solid 3px #006837;
+    border-radius: 0 45px 0 0;
+}
+
+.project-gallery {
+    border: solid 3px #006837;
+    border-radius: 0 45px 0 0;
+}
+
+.project-downloads {
+    border: solid 3px #006837;
+    border-radius: 0 0 0 45px;
+}
+
+.comment {
+    border: solid 3px #4f516b;
+    border-radius: 0 45px 45px 45px;
+}
+
+.comment h4 {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.action-bar {
+    background-color: #fff;
+    border-radius: 45px;
+    box-shadow: 2px 5px 5px #000;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.col-md-6:first-of-type {
+    padding-right: 0;
+}
+
+.col-md-6:nth-of-type(2) {
+    padding-left: 0;
+}
+
+.card .card-header {
+    background-color: #fff;
+    border: none;
+    outline:none;
+    border-radius: 0 45px 0 0;
 }
 
 .card .img-fluid {
     border-radius: 0 45px 0 0;
 }
 
+.gallery .img-fluid {
+    border-radius: 0;
+    padding: 0;
+}
+
 @media (min-width: 768px) {
     .card .img-fluid {
-        border-radius: 0 0 0 45px;
+        border-radius: 0 45px 0 45px;
+        height: 240px;
+        padding: 20px;
     }
 }
 
@@ -84,9 +156,8 @@ nav .sub-nav .nav-item:hover {
     background-color: #fff;
 }
 
-.card h2, .card h5, .card p, .card .category-group {
-    margin-left: 15px;
-    margin-bottom: 15px;
+.card h2, .card h5, .card p, .card .category-group, .card .stats-group {
+    margin: 15px;
 }
 
 .icon-category {
@@ -105,6 +176,10 @@ nav .sub-nav .nav-item:hover {
     background-color: #1bde3d;
 }
 
+.container {
+    margin-bottom: 70px;
+}
+
 .jumbotron {
     max-width: 1140px;
     margin: auto;
@@ -115,6 +190,10 @@ h1 {
     color: #fff;
     text-shadow: 2px 2px #000;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 a {
+    color: black;
 }
 
 h3 {
