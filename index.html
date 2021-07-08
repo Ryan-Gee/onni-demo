@@ -4,7 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css" />
@@ -68,7 +69,7 @@
     </nav>
 
 <!-- Main site content -->
-<div class="container">
+<div class="container-fluid">
     <!-- Header at the top of the page -->
     <div class="jumbotron">
         <h1>Everything. By Everyone.</h1>
@@ -83,70 +84,78 @@
             </div>
         </div>
     </div>
+</div>
+<div class="container">
     <!-- All project listings -->
     <div class="projects">
-        <div class="card mb-4">
-            <!-- Thumbnail at the top of the card -->
-            <div class="project-thumbnail">
-                <img class="img-fluid" src="https://www.rimolgreenhouses.com/sites/default/files/greenhouses/galleries/Center2P30.jpg" alt=""/>
-            </div>
-            <!-- Project title -->
-            <h2 class="card-header"><a href="project.html">Passive Greenhouse</a></h5>
-            <div class="card-body">
-                <!-- User attribution -->
-                <h5 class="card-title">By Nicole W.</h5>
-                <!-- Description -->
-                <p class="card-text">Lorem ipsum dolor sit amet, consectiteur adispiscing elit, sed diam.</p>
-                <!-- Category icons -->
-                <div class="btn-group category-group" role="group">
-                    <button class="icon icon-category">
-                        <img src="icons/leaf.svg" alt="environmental" />
-                    </button>
-                    <button class="icon icon-category">
-                        <img src="icons/user.svg" alt="social" />
-                    </button>
+        <div class="card mb-4 d-flex flex-wrap">
+            <div class="row">
+                <!-- Thumbnail at the top of the card -->
+                <div class="col-md-6">
+                    <img class="img-fluid" src="https://www.rimolgreenhouses.com/sites/default/files/greenhouses/galleries/Center2P30.jpg" alt=""/>
                 </div>
-                <!-- Views and likes icons (used button group as default styling is close) -->
-                <div class="btn-group stats-group" role="group">
-                    <button class="stat">
-                        <img src="icons/eye.svg" alt="views" class="mr-2"/>4390
-                    </button>
-                    <button class="stat">
-                        <img src="icons/heart.svg" alt="likes" class="mr-2"/>210
-                    </button>
+                <!-- Project title -->
+                <!-- <h2 class="card-header"></h2> -->
+                <div class="col-md-6 ">
+                    <h2><a href="project.html">Passive Greenhouse</a></h2>
+                    <!-- User attribution -->
+                    <h5 class="card-title">By Nicole W.</h5>
+                    <!-- Description -->
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectiteur adispiscing elit, sed diam.</p>
+                    <!-- Category icons -->
+                    <div class="btn-group category-group" role="group">
+                        <button class="icon icon-category">
+                            <img src="icons/leaf.svg" alt="environmental" />
+                        </button>
+                        <button class="icon icon-category">
+                            <img src="icons/user.svg" alt="social" />
+                        </button>
+                    </div>
+                    <!-- Views and likes icons (used button group as default styling is close) -->
+                    <div class="btn-group stats-group" role="group">
+                        <button class="stat">
+                            <img src="icons/eye.svg" alt="views" class="mr-2"/>4390
+                        </button>
+                        <button class="stat">
+                            <img src="icons/heart.svg" alt="likes" class="mr-2"/>210
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="card mb-4">
-            <!-- Card thumbnail -->
-            <div class="project-thumbnail">
-                <img class="img-fluid" src="https://ceresgs.com/wp-content/uploads/2018/05/12x16-DIY-Exterior.jpg" alt=""/>
-            </div>
-            <!-- Project title -->
-            <h2 class="card-header"><a href="#">Solar Greenhouse</a></h5>
-            <div class="card-body">
-                <!-- Project creator attribution -->
-                <h5 class="card-title">By Alex Q.</h5>
-                <!-- Project description brief -->
-                <p class="card-text">Lorem ipsum dolor sit amet, consectiteur adispiscing elit, sed diam.</p>
-                <!-- Category icons -->
-                <div class="btn-group category-group" role="group">
-                    <button class="icon icon-category">
-                        <img src="icons/leaf.svg" alt="environmental" />
-                    </button>
-                    <button class="icon icon-category">
-                        <img src="icons/cpu.svg" alt="tech" />
-                    </button>
+        <div class="card mb-4 d-flex flex-wrap">
+            <div class="row">
+                <!-- Thumbnail at the top of the card -->
+                <div class="col-md-6">
+                    <img class="img-fluid" src="https://ceresgs.com/wp-content/uploads/2018/05/12x16-DIY-Exterior.jpg" alt=""/>
                 </div>
-                <!-- Views and likes icons -->
-                <div class="btn-group stats-group" role="group">
-                    <button class="stat">
-                        <img src="icons/eye.svg" alt="views" class="mr-2"/>3629
-                    </button>
-                    <button class="stat">
-                        <img src="icons/heart.svg" alt="likes" class="mr-2"/>152
-                    </button>
+                <!-- Project title -->
+                <!-- <h2 class="card-header"></h2> -->
+                <div class="col-md-6">
+                    <h2><a href="project.html">Solar Greenhouse</a></h2>
+                    <!-- User attribution -->
+                    <h5 class="card-title">By Alex Q.</h5>
+                    <!-- Description -->
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectiteur adispiscing elit, sed diam.</p>
+                    <!-- Category icons -->
+                    <div class="btn-group category-group" role="group">
+                        <button class="icon icon-category">
+                            <img src="icons/leaf.svg" alt="environmental" />
+                        </button>
+                        <button class="icon icon-category">
+                            <img src="icons/cpu.svg" alt="tech" />
+                        </button>
+                    </div>
+                    <!-- Views and likes icons (used button group as default styling is close) -->
+                    <div class="btn-group stats-group" role="group">
+                        <button class="stat">
+                            <img src="icons/eye.svg" alt="views" class="mr-2"/>3629
+                        </button>
+                        <button class="stat">
+                            <img src="icons/heart.svg" alt="likes" class="mr-2"/>152
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

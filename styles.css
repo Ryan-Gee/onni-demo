@@ -1,16 +1,233 @@
 .nav-main {
     position: fixed;
     top: 0px;
-    background-color: #fff;
+    background-color: #1bde3d;
     width: 100%;
     z-index: 10;
 }
+.navbar-toggler {
+    border: none;
+    outline:none;
+}
 
+.nav-main .navbar-collapse .nav-item {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-main .navbar-collapse .nav-item a .active {
+    background-color: #006837;
+    margin: 0 auto;
+}
+
+.nav-main .navbar-collapse .nav-item a:hover {
+    background-color: #006837;
+    color: #ffffff;
+}
 
 nav .sub-nav {
-    background-color: #ccc;
+    background-color: #2d2e3e;
     width: 100%;
     position: fixed;
     bottom: 0px;
     z-index: 10
+}
+
+nav .sub-nav .nav-item .active {
+    background-color: #4f516b;
+}
+
+nav .sub-nav .nav-item:hover {
+    background-color: #4f516b;
+}
+
+.input-group .mt-4 {
+    max-height: 80px;
+}
+
+.input-group-append {
+    background-color: #2d2e3e;
+}
+
+.input-group-append img {
+    fill: #fff;
+}
+
+.card {
+    border-radius: 0px 50px;
+    border: solid 4px #006837;
+    box-shadow: 20px 10px #006837;
+    margin: auto;
+}
+
+.header {
+    background-color: #1bde3d;
+    margin: auto;
+    padding: 64px 32px 32px 32px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.header h1, .header p {
+    margin-left: 10px;
+}
+
+.project-background {
+    border: solid 3px #006837;
+    border-radius: 0 45px 0 0;
+}
+
+.project-gallery {
+    border: solid 3px #006837;
+    border-radius: 0 45px 0 0;
+}
+
+.project-downloads {
+    border: solid 3px #006837;
+    border-radius: 0 0 0 45px;
+}
+
+.comment {
+    border: solid 3px #4f516b;
+    border-radius: 0 45px 45px 45px;
+}
+
+.comment h4 {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.action-bar {
+    background-color: #fff;
+    border-radius: 45px;
+    box-shadow: 2px 5px 5px #000;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.col-md-6:first-of-type {
+    padding-right: 0;
+}
+
+.col-md-6:nth-of-type(2) {
+    padding-left: 0;
+}
+
+.card .card-header {
+    background-color: #fff;
+    border: none;
+    outline:none;
+    border-radius: 0 45px 0 0;
+}
+
+.card .img-fluid {
+    border-radius: 0 45px 0 0;
+    height: 340px;
+}
+
+.gallery .img-fluid {
+    border-radius: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .card {
+        border-radius: 0px 50px;
+        border: solid 4px #006837;
+        box-shadow: 20px 10px #006837;
+        margin: auto;
+        width: 100%;
+    }
+
+    .card .img-fluid {
+        border-radius: 0 45px 0 45px;
+        height: 240px;
+        padding: 20px;
+    }
+
+    .card h2, .card h5, .card p, .card .category-group, .card .stats-group {
+        margin: 15px;
+    }
+
+    .card .stats-group {
+        margin-left: 0;
+    }
+
+    .mb-4 {
+        width: 700px;
+    }
+
+    .gallery .img-fluid {
+        border-radius: 0;
+        padding: 5px;
+    }
+}
+
+.card button {
+    border: none;
+    outline:none;
+}
+
+.card .stats-group {
+    float: right;
+    margin-right: 15px;
+}
+
+.card .stat {
+    background-color: #fff;
+}
+
+.card h2, .card h5, .card p, .card .category-group {
+    margin: 15px;
+    margin-left: 30px;
+}
+
+.card .stats-group {
+    margin: 15px;
+}
+
+.icon-category {
+    height: 37px;
+    width: 37px;
+    margin-right: 15px;
+    border-radius: 50%;
+    background-color: #2d2e3e;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.container-fluid, .jumbotron {
+    background-color: #1bde3d;
+}
+
+.container {
+    margin-bottom: 70px;
+}
+
+.jumbotron {
+    max-width: 1140px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 a {
+    color: black;
+}
+
+h3 {
+    color: #006837;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Karla', ;
 }
